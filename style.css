@@ -7,10 +7,10 @@ body {
   line-height: 1.6;
 }
 
-header.hero {
+header.hero img {
   width: 100%;
-  max-height: 400px;
-  overflow: hidden;
+  height: auto;
+  display: block;
 }
 
 header.hero img {
