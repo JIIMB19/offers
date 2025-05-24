@@ -14,13 +14,12 @@ header.hero {
 }
 
 header.hero img {
-  width: 100%;
-  height: auto;
+  max-height: 300px;
+  width: auto;
   object-fit: contain;
   display: block;
   margin: 0 auto;
 }
-
 
 main {
   padding: 2em;
