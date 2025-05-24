@@ -8,20 +8,22 @@ body {
 
 header.hero img {
   width: 100%;
-  max-height: 400px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
 
 main {
   padding: 2em;
-  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
   color: #0a2740;
   font-size: 2.5rem;
   margin-top: 1em;
+  text-align: center;
 }
 
 h2 {
@@ -30,9 +32,7 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-p {
-  max-width: 800px;
-  margin: 0 auto 2em auto;
+p, li {
   font-size: 1.1rem;
   color: #444;
 }
@@ -44,3 +44,13 @@ section.about {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   margin-top: 3em;
 }
+
+ul {
+  padding-left: 1.2em;
+  margin-top: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
