@@ -7,19 +7,18 @@ body {
   line-height: 1.6;
 }
 
-header.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
+header.hero {
+  height: 300px;
+  overflow: hidden;
 }
 
 header.hero img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
+  display: block;
 }
+
 
 main {
   padding: 2rem 1rem;
