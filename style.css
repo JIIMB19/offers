@@ -14,67 +14,59 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background: url('hero.png') center center no-repeat;
-  background-size: contain;
-  height: 400px;
+  position: relative;
   max-width: 1152px;
+  height: auto;
   margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  backdrop-filter: blur(3px);
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.site-name {
-  position: absolute;
-  top: 1rem;
+.overlay h1 {
   font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
-  z-index: 2;
-}
-
-.overlay {
-  position: relative;
-  z-index: 2;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 600px;
-  width: 90%;
-  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
 .overlay h2 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
 .overlay p {
-  font-size: 1.1rem;
+  max-width: 700px;
   margin-bottom: 1.5rem;
 }
 
 .cta-button {
-  display: inline-block;
   background-color: #00a86b;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
   font-size: 1rem;
   transition: background-color 0.3s ease;
 }
