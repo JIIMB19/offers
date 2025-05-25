@@ -13,8 +13,8 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background: url('hero.png') center center/cover no-repeat;
-  height: 60vh;
+  background: url('hero.png') center top/contain no-repeat;
+  height: 70vh;
   position: relative;
   display: flex;
   align-items: center;
