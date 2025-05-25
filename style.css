@@ -14,17 +14,18 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background: url('hero.png') center top no-repeat;
+  background: url('hero.png') center center no-repeat;
   background-size: contain;
   height: 400px;
   max-width: 1152px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  position: relative;
+  align-items: center;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero::before {
