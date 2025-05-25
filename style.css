@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
   color: #333;
-  background-color: #f8f9fa;
 }
 
+/* HERO SECTION */
 .hero {
   background: url('hero.png') center center/cover no-repeat;
   height: 80vh;
@@ -15,51 +15,7 @@ body {
   text-align: center;
   position: relative;
   color: white;
-  padding: 0 1rem;
+  padding: 3rem 1rem 1rem 1rem;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem 2rem;
-  border-radius: 10px;
-  max-width: 90%;
-  width: 500px;
-}
-
-.overlay h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.overlay p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #00a86b;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-  background-color: white;
-  margin-top: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #666;
-}
+.overla
