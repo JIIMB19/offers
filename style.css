@@ -8,14 +8,48 @@ body {
 /* HERO SECTION */
 .hero {
   background: url('hero.png') center center/cover no-repeat;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   position: relative;
   color: white;
-  padding: 3rem 1rem 1rem 1rem;
 }
 
-.overla
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.overlay p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #00a86b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #007f50;
+}
+
