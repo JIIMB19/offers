@@ -1,5 +1,11 @@
-body {
+/* Reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f6f8;
   color: #333;
@@ -9,27 +15,35 @@ body {
 .hero {
   background: url('hero.png') center center/cover no-repeat;
   height: 60vh;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  position: relative;
-  color: white;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
   padding: 2rem;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 12px;
   max-width: 600px;
   width: 90%;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .overlay h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: bold;
 }
 
 .overlay p {
@@ -53,3 +67,30 @@ body {
   background-color: #007f50;
 }
 
+/* SECTIONS */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
