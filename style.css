@@ -13,11 +13,20 @@ body {
 }
 
 /* HERO SECTION */
+.hero {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .hero-img {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 400px;
+  object-fit: contain;
 }
+
 
 .cta-button {
   background-color: #00a86b;
