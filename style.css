@@ -14,17 +14,9 @@ body {
 
 /* HERO SECTION */
 .hero {
-  position: relative;
-  max-width: 1152px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 0;
+  background: url('hero.jpg') center center no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 
 .overlay {
